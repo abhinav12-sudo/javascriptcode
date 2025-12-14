@@ -27,3 +27,4 @@ let result2 = addnum(10,2)
 // {new variable environment and thread. Phase1--> Memory phase val1=undefined,val2=undefined,total=undefined Execution phase--->> val1=10,val2=2,total=12}
 // result2=12
 // this process works on the stack base as these follows first in first out concept
+
