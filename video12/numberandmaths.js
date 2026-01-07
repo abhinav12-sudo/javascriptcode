@@ -1,12 +1,12 @@
 // const score = 400
-// console.log(score);
+// console.log(score);//400
 
 
-// const balance = new Number(100)
-// console.log(balance);
+const balance = new Number(100)
+// console.log(balance);//[number:100]
 
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
+// console.log(balance.toString().length);//3
+// console.log(balance.toFixed(2));//100.00
 // let num = 3.14159;
 
 // console.log(num.toFixed(2)); // "3.14"
@@ -20,7 +20,7 @@
 // the difference  between tofixed and toprecision is that tofixed Fixes the number of digits AFTER the decimal point and to precision Fixes the TOTAL number of significant digits
 
 // const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN')); //this function puts the no of zeros in the integer.
 
 
 //++++++++++++++++++++++++++++++++++Maths++++++++++++++++
@@ -40,5 +40,5 @@ console.log(Math.random());
 const min =10
 const max = 20 
 
-(Math.random() * (max-min+1)) + min 
+(Math.random() * (max-min+1)) + min //this is the formula to get a random number between 10 and 20
 
