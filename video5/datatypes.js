@@ -18,8 +18,8 @@ let isloggedin = false //boolean
 // symbol => unique
 
 
-// object
 
+// object
 console.log(typeof "hitesh");
 console.log(typeof null);// the language consider it as a object so it give the datatype as object to the null
 console.log(typeof undefined);//the language gives the undefined datatype to the undefined
