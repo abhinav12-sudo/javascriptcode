@@ -35,3 +35,5 @@ console.log("b",myarr);
 const myn2 = myarr.splice(1,3)
 console.log(myn2);
 // slice do not delete the item from the array and it also does not include the last give digit but on the other hand splice delete the element from the original array and make a new array 
+// a new thing to remember that you can also add the items using splice function becaue splice look like this
+// splice(start,deletecount,...items)// so firstly here it is taking the starting position and second it is taking how many items it has to delete and then it is taking items as the argument which you want it to add to your container.
